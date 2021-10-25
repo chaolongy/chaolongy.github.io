@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chaolong Yang</title>
+
+<meta charset="UTF-8">
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+<link href="font.css" rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+function openShutManager(oSourceObj,oTargetObj,shutAble,oOpenTip,oShutTip){
+var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+var openTip = oOpenTip || "";
+var shutTip = oShutTip || "";
+if(targetObj.style.display!="none"){
+   if(shutAble) return;
+   targetObj.style.display="none";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = shutTip;
+   }
+} else {
+   targetObj.style.display="block";
+   if(openTip  &&  shutTip){
+    sourceObj.innerHTML = openTip;
+   }
+}
+}
+</script>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="name">
+			<h1>
+				Chaolong Yang (杨超龙)
+			</h1>
+			<p>
+                MRes Pattern Recognition and Intelligent Systems (since Fall 2020) <br>
+                University of Liverpool <br>
+				Email: Chaolong.Yang20@student.xjtlu.edu.cn <br>
+            </p>
+			<h6 class="top-fifteen">
+<!--				<div class="tooltip1">-->
+				<a href="https://github.com/chaolong1"><img src="imgs/git_icon.png" width=50px></a>&ensp;
+<!--				</div>-->
+			</h6>
+		</div>
+
+		<div id="headshot" class="quickFade">
+			<img src="imgs/headshot.jpg"/>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade">
+<!--		Aabout Me-->
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>About Me</h1>
+				</div>
+				
+				<div class="aboutmeContent">
+					<p>
+						I am a M.S. student at Xi'an Jiaotong-Liverpool University, working in the
+						<a href="http://www.premilab.com/MainPage.ashx">Laboratory of Cognitive Computation and Applied Technology</a>,
+						supervised by Prof. <a href="http://www.premilab.com/KaizhuHUANG.ashx">Huang, Kaizhu</a>.
+						Before that, I am a machine learning algorithm engineer in
+						<a href="https://www.bzlrobot.com/">Guangdong BrightDream Robotics, Country garden Group</a>.
+					</p>
+					<p>
+						My research interests include: Deep Learning and Computer Vision, particularly 3D scene understanding.
+					</p>
+				</div>
+			</article>
+
+			<div class="clear"></div>
+		</section>
+		
+<!--		Publication-->
+		<section>
+			<div class="sectionTitle">
+				<h1>Publications</h1>
+			</div>
+
+			<article>
+				<div class="publicationsImage">
+					<img src="imgs/DF-MVR.jpg"/>
+				</div>
+				<div class="publicationsContent">
+					<h4><b>From 2D images to 3D model: Weakly Supervised Multi-View Face Reconstruction with Deep Fusion</b></h4>
+					<p2>Weiguang Zhao*, Chaolong Yang*, Jianan Ye, Yuyao Yan, Xi Yang and Kaizhu Huang</p2>
+					<p2 class="publicationsDetails">Association for the Advancement of Artificial Intelligence (AAAI), 2022 <b>[The first round of review has passed, and the second round of review is in progress]</b></p2>
+					<p2>* equal contributions</p2>
+				</div>
+			</article>
+
+			<div class="clear"></div>
+		</section>
+
+<!--		Projects-->
+		<section>
+			<div class="sectionTitle">
+				<h1>Projects</h1>
+				<h2 class="bottom-three">Research on Semantic Segmentation Algorithm of 3D Point Cloud</h2>
+			</div>
+			<article>
+				<div class="projectsImage">
+					<img src="imgs/pointcloud.png"/>
+				</div>
+				<div class="projectsContent">
+					<p2><b>Mainly responsible for the research on the semantic segmentation algorithm of 3D point cloud
+						based on the fusion of 2D image and 3D point cloud</b>.</p2>
+					<p2>For the indoor scene data ScanNetv2, the 2D backbone is used to extract 2D smooth texture information
+						to enhance the feature information of the 3D point cloud, and finally 3D sparse convolution is used for
+						the 3D point cloud to achieve scene understanding.</p2>
+				</div>
+			</article>
+
+			<div class="sectionTitle">
+				<h2 class="bottom-three">Banner layout auto-generation with Machine Learning and Reinforcement Learning</h2>
+			</div>
+			<article>
+				<div class="projectsImage">
+					<img src="imgs/banner.png"/>
+				</div>
+				<div class="projectsContent">
+					<p2><b>Mainly responsible for the formulation of the banner size extension technical schemes.</b></p2>
+					<p2>The original banner automatically generates a new layout through Machine Learning.
+						The evaluation function of the banner layout is used for the reward function of Reinforcement Learning,
+						and each element agent adjusts the position through learning to realize the intelligent adjustment of the banner layout.</p2>
+				</div>
+			</article>
+
+			<div class="sectionTitle">
+				<h2 class="bottom-three">Comparison of architectural drawings</h2>
+			</div>
+			<article>
+				<div class="projectsImage">
+					<img src="imgs/drawing.png"/>
+				</div>
+				<div class="projectsContent">
+					<p2><b>Mainly responsible for the formulation of technical schemes for comparison of architectural drawings.</b></p2>
+					<p2>Semantic segmentation backbone is used to extract the shear wall of construction drawings,
+						and execute the drawing alignment algorithm to align with the contract drawings.
+						Finally, the difference detection algorithm is executed, and the difference between
+						the construction drawing and the contract drawing is marked.</p2>
+				</div>
+			</article>
+
+			<div class="clear"></div>
+		</section>
+
+<!--		Patents-->
+		<section>
+			<div class="sectionTitle">
+				<h1>Patents</h1>
+			</div>
+			<div class="patentsContent">
+				<p3>-CN201911070968.0, Method and system for adjusting plane design frame</p3>
+				<p3>-CN202010038919.5, Advertisement poster generation method</p3>
+				<p3>-CN201911416074.2, Poster templates generation method</p3>
+				<p3>-CN202010018860.3, Image style conversion method</p3>
+				<p3>-CN202010001984.0, An image typesetting method</p3>
+				<p3>-CN201911046872.0, Graphic design quality inspection method based on deep learning model</p3>
+				<p3>-CN202010138426.9, An image layout and model training method</p3>
+				<p3>-CN201911289942.5, Image processing method and device</p3>
+				<p3>-CN202010002011.9, An information filtering method</p3>
+				<p3>-CN202010327106.8, A method for proofreading drawings</p3>
+				<p3>-CN202010324170.0, Classification method and device for picture collection</p3>
+				<p3>-CN202010140746.8, Method for parsing flowchart</p3>
+				<p3>-CN202010158252.2, Image feature extraction method</p3>
+				<p3>-CN202010002108.X, Drawing image positioning and proofreading method</p3>
+				<p3>-CN201911341799.X, Proofreading method of drawings</p3>
+				<p3>-CN201911315035.3, Sunshine duration analysis method</p3>
+				<p3>-CN201911029245.6, A Method for Optimizing the Arrangement of Buildings</p3>
+				<p3>-CN201911019439.8, A GAN-based method for forecasting the duration of sunshine for building houses</p3>
+				<p3>-CN202010010424.1, Text error correction method</p3>
+				<p3>-CN201911372226.3, Method of copywriting generation</p3>
+			</div>
+
+			<div class="clear"></div>
+		</section>
+
+<!--		Honors/Awards-->
+		<section>
+			<div class="sectionTitle">
+				<h1>Honors/Awards</h1>
+			</div>
+			<div class="honorsContent">
+				<p3>-National Scholarship (9 places for the school), 2017</p3>
+				<p3>-University Outstanding Student Scholarship (2 places for the school), 2018</p3>
+				<p3>-Outstanding graduates, 2019</p3>
+			</div>
+
+			<div class="clear"></div>
+		</section>
+
+<!--		Competitions-->
+		<section>
+			<div class="sectionTitle">
+				<h1>Competitions</h1>
+			</div>
+			<div class="competitionsContent">
+				<p3>-The 17th Guangdong Provincial College Students Physical Experiment Design Competition (Second Prize), 2016</p3>
+				<p3>-"Challenge Cup" National College Students Extracurricular Academic and Scientific Works Competition Guangdong Division (Third Prize), 2017</p3>
+				<p3>-National Undergraduate Electronic Design Contest Guangdong Division (Second Prize), 2017</p3>
+			</div>
+
+			<div class="clear"></div>
+		</section>
+
+	</div>
+</div>
+
+<p align="center">Last updated: October, 2021</p>
+</body>
+</html>

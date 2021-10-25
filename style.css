@@ -1,0 +1,212 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {background: #FFFFFF; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+p {
+	font-size: 1em;
+	line-height: 2em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+p2 {
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #444;
+	margin-bottom: 2px;
+	display: block;
+}
+
+p3 {
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #444;
+	margin-bottom: 10px;
+	display: block;
+}
+
+b {
+  font-weight:bold;
+}
+
+.clear {clear: both;}
+
+#cv {
+	width: 90%;
+	max-width: 1000px;
+	background: #ffffff;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	/*border-bottom: 2px solid #acb5f5;*/
+	background: #ffffff;
+}
+
+#name {
+	margin-left: 5%;
+	margin-top: 25px;
+	float: left;
+}
+#name h1 {
+	font-size: 3em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+    color: #4848ce;
+}
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	color: 	#7093DB;
+}
+
+.top-fifteen {
+ margin-top: 10px;
+}
+
+#headshot {
+	width: 20%;
+	float: right;
+	margin-right: 10%;
+	margin-top: 20px;
+}
+#headshot img {
+	width: 100%;
+	height: auto;
+	/*-webkit-border-radius: 50px;*/
+	border-radius: 50px;
+}
+
+
+#mainArea {
+	padding: 0 40px;
+}
+
+section {
+	border-top: 1px solid #acb5f5;
+	padding: 20px 0 0;
+}
+
+article {
+    display: table-row;
+}
+
+.sectionTitle {
+	float: left;
+	width: 100%;
+}
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	color: #7093DB;
+}
+.sectionTitle h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.3em;
+	color: #7093DB;
+}
+
+.bottom-three {
+ margin-top: 30px;
+}
+
+.aboutmeContent {
+	float: right;
+	width: 80%;
+}
+
+.publicationsImage img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.publicationsImage{
+	margin-top: 20px;
+	float: left;
+	width: 38%;
+}
+.publicationsContent{
+	margin-top: 20px;
+	float: right;
+	width: 60%;
+}
+.publicationsDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 3px;
+}
+
+.projectsImage img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.projectsImage{
+	margin-top: 20px;
+	float: left;
+	width: 38%;
+}
+.projectsContent{
+	margin-top: 20px;
+	float: right;
+	width: 60%;
+}
+
+.patentsContent {
+	float: right;
+	width: 90%;
+}
+
+.honorsContent {
+	float: right;
+	width: 90%;
+}
+
+.competitionsContent {
+	float: right;
+	width: 90%;
+}
+
+
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-timing-function: ease-in;
+
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: .5s;
+    -moz-animation-timing-function: ease-in;
+
+	animation-name: reset, fade-in;
+    animation-duration: .5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in;
+
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: ease-in;
+
+	animation-name: reset, fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
