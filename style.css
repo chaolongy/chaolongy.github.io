@@ -162,20 +162,22 @@ article {
 	width: 60%;
 }
 
-.patentsContent {
-	float: right;
-	width: 90%;
-}
-
 .honorsContent {
 	float: right;
-	width: 90%;
+	width: 100%;
 }
 
 .competitionsContent {
 	float: right;
-	width: 90%;
+	width: 100%;
 }
+
+.patentsContent {
+	float: right;
+	width: 100%;
+}
+
+
 
 
 
