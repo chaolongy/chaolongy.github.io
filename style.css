@@ -56,7 +56,7 @@ b {
 }
 
 #name {
-	margin-left: 5%;
+	margin-left: 10%;
 	margin-top: 25px;
 	float: left;
 }
@@ -74,18 +74,14 @@ b {
 	color: 	#7093DB;
 }
 
-.top-fifteen {
- margin-top: 10px;
-}
-
 #headshot {
-	width: 20%;
+	width: 18%;
 	float: right;
 	margin-right: 10%;
-	margin-top: 20px;
+	margin-top: 35px;
 }
 #headshot img {
-	width: 100%;
+	width: 75%;
 	height: auto;
 	/*-webkit-border-radius: 50px;*/
 	border-radius: 50px;
