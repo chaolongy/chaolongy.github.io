@@ -124,7 +124,12 @@ article {
 
 .aboutmeContent {
 	float: right;
-	width: 80%;
+	width: 95%;
+}
+
+.newsContent {
+	float: right;
+	width: 93%;
 }
 
 .publicationsImage img{
